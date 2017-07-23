@@ -2,7 +2,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .menu {
     list-style-type: none;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
     padding: 0;
     overflow: hidden;
     height: 75px;
@@ -61,7 +61,8 @@ section.dark a:hover {
 
 /* Images
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-img {
+img,
+video {
     max-width: 100%;
 }
 
@@ -99,6 +100,10 @@ img {
 
 /* Structure/Content
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+    margin-top: 10px;
+    background: #ebebeb;
+}
 #landing {
     height: 1em; /* IE flex fix */
     padding: 100px 0;
