@@ -59,6 +59,12 @@ section.dark a:hover {
     color: #aaa;
 }
 
+/* Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+img {
+    max-width: 100%;
+}
+
 /* Helpers
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .center {
@@ -75,6 +81,20 @@ section.dark a:hover {
     display: flex;
     -ms-flex-align: center;
     align-items: center;
+}
+.hidden-on-mobile {
+    display: block;
+}
+.show-on-mobile {
+    display: none;
+}
+@media (max-width: 750px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+    .show-on-mobile {
+        display: block;
+    }
 }
 
 /* Structure/Content
@@ -134,6 +154,11 @@ footer {
     .benefit h4 {
         min-height: 0px;
     }
+}
+.social {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
 }
 .social i {
     font-size: 60px;
