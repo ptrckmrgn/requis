@@ -5,7 +5,7 @@
     margin: 0 0 10px 0;
     padding: 0;
     overflow: hidden;
-    height: 75px;
+    height: 76px;
 }
 .menu-logo {
     float: left;
@@ -102,7 +102,6 @@ video {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
     margin-top: 10px;
-    background: #ebebeb;
 }
 #landing {
     height: 1em; /* IE flex fix */
